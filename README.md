@@ -3,12 +3,11 @@
 ### Author : Lewis MWangi March 11 2023
 ****
 ## Project Description
-This is me. I share about my skills, educational background, hobbies and my favourite activities and also how to contact me
+This is me. I share about my skills, educational background and how to contact me
 ******
 
 ## SCREENSHOTS
-- link 1
-- link 2
+https://github.com/lewis-mwangi1/Lewis-Mwangi-Portofolio/issues/1
 
 
 ********
@@ -39,20 +38,18 @@ To install all requirements
 Then run server with the above command
 *****
 ## Live Link
-Or you can access the web application directly via this [LINK.](link.com/)
+Or you can access the web application directly via this [LINK.](https://lewis-mwangi1.github.io/Lewis-Mwangi-Portofolio/) 
 *****
 ## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+- Google Fonts
+- Font-awesome fonts
+- Partice JS
+- https://colorgradient.dev/
 *****
 ## Technologies Used
 1. HTML
-2. MdBootstrap
-3. HTML
-4. CSS
-5. JavaScript
+4. JavaScript
+3. CSS
 *****
 ## Contact Information
 * Email : gluwiz@gmail.com
