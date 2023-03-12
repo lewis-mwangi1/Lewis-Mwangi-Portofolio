@@ -14,11 +14,12 @@ span{
     border-bottom-right-radius: 30%;
     text-decoration: line-through;
     font-family: ;
+    background: image(url(smooth-soft-brownish-gradient-backdrop-abstact-background.jpg));
 }
 
 *{
     padding: 0;
-    margin: 0;
+    margin: 20;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 2000;
@@ -27,7 +28,7 @@ span{
 body{
     background-size: 100% 100%;
     background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
-    background-image: repeating-linear-gradient(315deg, #692b0dda 92%, #ffe75f00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #ffffffce 0%, #9b494900 100%),radial-gradient(99% 99% at 21% 78%, rgb(77, 17, 17) 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, rgb(0, 0, 0) 0%, rgb(155, 91, 7) 100%);}
+    background-image: repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%), radial-gradient(99% 99% at 109% 2%, #9b2121ce 0%, #9b494900 100%),radial-gradient(99% 99% at 21% 78%, rgb(77, 17, 17) 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, rgb(0, 0, 0) 0%, rgb(155, 91, 7) 100%);}
 
 .hero{
     height: 100vh;
@@ -58,22 +59,23 @@ nav ul li{
     padding: 10px 20px;
 }
 nav ul li a{
-    color:#e9d3cc;
+    color:#e9cccc;
     text-decoration:solid;
     font-weight: bold;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(226, 145, 92);
     transition: .1s;
     cursor: pointer;
     }
 .me{
     position:absolute;
-    text-align:justify;
+    text-align:center;
     top: 30%;
     left: 8%;
     transform: translateY(-50%);
+    transform: translateX(70%);
 }
 h1{
     color:#ddd0a4;
@@ -92,6 +94,15 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
     color: rgb(255, 255, 255);
+}
+h6{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #e0a08c;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: justify;
+    
 }
 .skills{
     width: 100%;
@@ -156,4 +167,17 @@ h5{
     background-color: transparent;
     border: 2px solid rgba(173, 140, 101, 0.822);
     cursor: pointer;
+}
+.email {
+    text-align:justify;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans;
+    font-size: large;
+    text-decoration: underline;
+    font-style: italic;
+    color: #e0a08c;
+}
+     {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
 }
