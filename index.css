@@ -1,0 +1,159 @@
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-weight:400;
+    font-size: 20px;
+    border-bottom-right-radius: 30%;
+    text-decoration: line-through;
+    font-family: ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 2000;
+}
+
+body{
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: repeating-linear-gradient(315deg, #692b0dda 92%, #ffe75f00 100%),repeating-radial-gradient(75% 75% at 238% 218%, #00FFFF12 30%, #073AFF14 39%),radial-gradient(99% 99% at 109% 2%, #ffffffce 0%, #9b494900 100%),radial-gradient(99% 99% at 21% 78%, rgb(77, 17, 17) 0%, #073AFF00 100%),radial-gradient(160% 154% at 711px -303px, rgb(0, 0, 0) 0%, rgb(155, 91, 7) 100%);}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ddd0a4;
+
+}
+.logo {
+    text-align: center;
+    text-decoration: wavy;
+    font-size: x-large;
+    border: 9000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul li{
+    list-style-type: none ;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:#e9d3cc;
+    text-decoration:solid;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    transition: .1s;
+    cursor: pointer;
+    }
+.me{
+    position:absolute;
+    text-align:justify;
+    top: 30%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color:#ddd0a4;
+    font-size: 75px;
+    margin: 20px 0px 20px;
+    font-family:fantasy;
+    font-weight: 200;
+}
+h3{
+    color: #ddd0a4;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.skills{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: rgb(218, 200, 200);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgba(255, 255, 255, 0.822);
+}
+h5{
+    font: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.web p{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    color: white;
+    background-color:rgba(119, 71, 17, 0.822);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgba(173, 140, 101, 0.822);
+    cursor: pointer;
+}
