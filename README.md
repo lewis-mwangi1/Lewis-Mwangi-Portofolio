@@ -1,4 +1,4 @@
-# Lewis-Mwangi-Portofolio
+# Lewis Mwangi Portofolio
 *****
 ### Author : Lewis MWangi March 11 2023
 ****
